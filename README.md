@@ -129,7 +129,7 @@ Self locating file systems, structured SQL and the power of tokens. Keywords: sa
              l.*
             ,r.*
           from
-             de_Demographics left join lab_laboratory
+             dem_Demographics left join lab_laboratory
           on
              dem_pid = lab_dem_pid
       ;quit;
