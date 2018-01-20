@@ -138,7 +138,7 @@ This leads to clean sql code, no collisions
         ,lab_dte
         ,dem_die
       from
-         de_Demographics left join lab_laboratory
+         dem_Demographics left join lab_laboratory
       on
          dem_pid = lab_dem_pid
   ;quit;
